@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 1</title>
+</head>
+<body
+ <div>
+    <div class="hero">
+        <div class="sidebar">
+        <p class="judul">Tugas 1</p>
+    </div>
+    <h1 class="judul">Rekomendasi 5 Tools Reconnaissance Terbaik</h1>
+    <br>
+    
+    <h3>1. Datasploit</h3><p>Datasploit berguna untuk mengumpulkan informasi yang relevan tentang target untuk memperluas permukaan serangan dan pertahanan Anda dengan sangat cepat. Daftar fitur meliputi:
+        OSINT otomatis pada domain/email/nama pengguna/telepon untuk informasi yang relevan dari berbagai sumber.
+        Berguna untuk penguji penetrasi, penyelidik dunia maya, profesional keamanan defensif, dll.
+        Korelasi dan hasil kolaboratif menunjukkannya secara terkonsolidasi.
+        Mencoba menemukan kredensial, kunci API, token, subdomain, riwayat domain, portal lawas, dan lainnya yang terkait dengan target.
+        Tersedia sebagai alat konsolidasi tunggal serta skrip mandiri.
+        Melakukan Pemindaian Aktif pada data yang dikumpulkan.
+        Menghasilkan laporan HTML dan JSON bersama dengan file teks.</p>
+    <h3>2. Shodan</h3> <p>Shodan adalah sebuah mesin pencari yang dirancang untuk mencari perangkat dan sistem komputer yang terhubung dengan World Wide Web. Situs ini diluncurkan pada tahun 2008 oleh pemrogram komputer John Matherly, yang memiliki ide mencari peralatan-peralatan yang terhubung dengan Internet.[1]
+
+    Matherly langsung mengetahui fakta bahwa kebanyakan perangkat dan sistem komputer di dunia terhubung ke Internet, termasuk lampu lalu lintas, kamera keamanan, sistem penghangat rumah, sistem kendali taman bermain, SPBU, jaringan listrik, dan PLTN. Sebagian besar sistem tersebut memiliki keamanan dan perlindungan yang lemah.[1][2] Kerusakan parah dapat terjadi jika situs ini jatuh ke tangan yang salah. Shodan kini memberikan 10 hasil pencarian untuk pengguna tanpa akun, 50 untuk pengguna berakun, dan semuanya untuk pengguna yang membayar.[2]
+    
+    Pengguna utama Shodan adalah para profesional keamanan siber, peneliti, dan badan penegak hukum. Walaupun pelaku kejahatan siber bisa juga menggunakan situs ini, kebanyakan di antaranya memiliki akses botnet yang dapat melakukan hal yang sama seperti Shodan tanpa terdeteksi.</p>
+    
+    <h3>3. NMAP</h3><p>NMAP adalah singkatan dari Network Mapper yang merupakan sebuah tool atau alat yang bersifat open source. Alat ini hanya digunakan secara khusus untuk eksplorasi jaringan serta melakukan audit terhadap keamanan dari jaringan. Seseorang yang berjasa mengukirkan namanya sebagai penemu atau pencipta dari NMAP adalah Gordon Lyon. Ia berhasil membuat alat ini pada tanggal 1 September 1997 yang kemudian ia publikasikan melalui sebuah website yang memang menyediakan beragam artikel yang berkaitan dengan keamanan komputer.
+    Sebenarnya Gordon Lyon memiliki nama lain yang lebih dikenal dalam dunia perusahaan, yaitu Fydor Vaskovich. Sekedar informasi bahwa orang ini merupakan seorang yang sudah ahli dalam hal-hal yang berkaitan dengan keamanan komputer, penulis, dan juga merupakan seorang programmer open source. Selain menjadi seorang yang mengembangkan NMAP, Gordon juga diketahui merupakan pendiri dari Honeynet Project.</p>
+    <h3>4. Recon-ng</h3> <p> Recon-ng adalah tools yang berfungsi untuk melakukan information gathering dengan feature lengkap Web Reconnaissance framework berbasis Python. Recon-ng mempunyai modul yang cukup lengkap biasa digunakan untuk melakukan interaksi ke database, informasi website.</p>
+    <h3>5. Nikto</h3> <P>Nikto adalah pemindai web server Open Source (GPL) yang melakukan pengujian menyeluruh terhadap server web untuk beberapa item, termasuk lebih dari 6700 file / program yang berpotensi berbahaya, memeriksa versi lawas lebih dari 1250 server, dan masalah spesifik versi pada lebih dari 270 server. NIkto juga memeriksa item konfigurasi server seperti adanya beberapa file indeks, pilihan server HTTP, dan akan mencoba untuk mengidentifikasi server web dan perangkat lunak yang diinstal. Item pindaian dan plugin sering diperbarui dan dapat diperbarui secara otomatis.
+         Nikto tidak dirancang sebagai alat diam-diam. Nikto akan menguji server web dalam waktu tercepat, dan jelas ada di file log atau ke IPS / IDS. Namun, ada dukungan untuk metode anti-IDS LibWhisker jika Anda ingin mencobanya (atau uji sistem IDS Anda).
+         Tidak setiap cek adalah masalah keamanan, meski sebagian besar. Ada beberapa item yang merupakan jenis cek "hanya infoformasi" yang mencari hal-hal yang mungkin tidak memiliki kelemahan keamanan, tapi webmaster atau teknisi keamanan mungkin tidak tahu akan kehadirannya di server. Item ini biasanya ditandai dengan tepat dalam informasi yang tercetak. Ada juga beberapa pemeriksaan untuk item yang tidak diketahui yang telah dilihat di-scan untuk file log.</P>
+    <div class="footer">
+        <p class="copy">COPYRIGHT 2023.TEDDY KURNIAWAN</p>
+    </div>   
+    </div>
+</body>
+</html>
+<style>
+    body {
+        background-color: #8888;
+    }
+    .hero{
+        background-color: white;
+        margin-left: 170px;
+        margin-right: 170px;
+        
+    }
+    .sidebar{
+        background-image: url(1.jpg);
+        padding-top: 10px;
+        padding-bottom: 350px;
+        border-top: 4px solid blueviolet;
+        border-bottom: 4px solid salmon;
+        border-left: 4px solid blueviolet;
+        border-right: 4px solid salmon;
+        background-position: 0 -100px;
+        background-size: cover;
+        text-decoration: none;
+    }
+    .sidebar .judul {
+        color: #eaeaea;
+        background-color:blueviolet;
+        border-radius: 5px;
+        margin-right: 900px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    p  {
+        margin-left: 15px;
+        font-size: 15px;
+        margin-right: 20px;
+    }
+    
+    h1{
+        margin-left: 200px;
+    }
+    h3{
+        margin-left: 10px;
+    }
+    .footer{
+        padding-bottom: 10px;
+        padding-top: 5px;
+        background-color: black;
+        font-style: bold;
+        border-left: 4px solid blueviolet ;
+        border-top: 4px solid salmon;
+        border-right: 4px solid blueviolet;
+        border-bottom: 4px solid blueviolet;
+        
+    }
+    .footer .copy {
+
+color: #eaeaea;
+text-align: center;
+font-size: 20px;
+}
+.footer .copy {
+font: bold;
+background-radius: 20px;
+
+}
+
+
+</style>
